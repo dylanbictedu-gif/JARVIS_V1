@@ -2,17 +2,26 @@
 
 A static, responsive portfolio homepage built with HTML, CSS, JavaScript, Three.js, and Lucide Icons. No build step is required.
 
-## Run
+## Live Site
 
-From the project folder:
+Your portfolio is deployed on **GitHub Pages** and runs 24/7 at:
+```
+https://YOUR_USERNAME.github.io/JARVIS_V1
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for setup instructions.
+
+## Local Development (Optional)
+
+To test locally without GitHub:
 
 ```sh
 python3 -m http.server 4173
 ```
 
-Open `http://127.0.0.1:4173/static/index.html`.
+Then open `http://127.0.0.1:4173/static/index.html`
 
-The page imports Three.js, Lucide, and the fonts from CDNs, so the first load needs an internet connection.
+The page imports Three.js, Lucide, and fonts from CDNs, so the first load needs an internet connection.
 
 ## Edit Your Content
 
